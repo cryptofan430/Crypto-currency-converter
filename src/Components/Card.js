@@ -21,7 +21,7 @@ const Card = (props)=>{
     }
     return(
         <div className={classes.card}>
-            <h2>Crypto Converter</h2>
+            <h2>Cryptocurrency Converter</h2>
             <form className={classes.card__form}>
                 <div className={classes.card__form__input}>
                     <label>NEP</label>

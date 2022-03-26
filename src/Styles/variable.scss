@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+$Poppins : 'Poppins', sans-serif;
+
+//Colors
+
+$primaryBg : rgb(11, 11, 66);
+$secondryBg : white;
+$textColor : black;
+
+//border
+$borderRadius : 12px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (max-width : 768px) {
+            @content;
+        }
+    }
+}
+
